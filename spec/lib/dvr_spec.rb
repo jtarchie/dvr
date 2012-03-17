@@ -71,7 +71,7 @@ describe DVR do
             DVR.record :none, cassette_name do
               Person.create(:name => "Hello World")
             end
-          }.to raise_exception
+          }.to raise_exception(DVR::NotRecorded)
         end
       end
     end
