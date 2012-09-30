@@ -4,7 +4,6 @@ require 'fileutils'
 
 require 'dvr/playback/all'
 require 'dvr/playback/none'
-require 'dvr/core_ext'
 
 class DVR
   class NotRecorded < Exception; end
