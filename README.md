@@ -1,8 +1,8 @@
-= Introduction
+# Introduction
 
 An experiment to see if database connections can be recorded for playback within RSpec. Following the same patterns of VCR (for HTTP) we record the SQL statements that your database connect records.
 
-= Usage
+# Usage
     > gem install dvr
 
     require 'dvr'
@@ -19,7 +19,7 @@ An experiment to see if database connections can be recorded for playback within
       Person.count.should == 0
     end
 
-= Results
+# Results
 
 Is it worth it? No.
 
